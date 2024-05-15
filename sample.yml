@@ -1,0 +1,6 @@
+- name: sample project
+- hosts: all
+- tasks:
+    - name: ansile playbook
+    - ansible.builtin.debug:
+        msg: Hello world
